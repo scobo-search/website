@@ -94,11 +94,11 @@ return [
     */
 
     'search'            => [
-        'enabled'       => false,
-        'default'       => 'algolia',
+        'enabled'       => true,
+        'default'       => 'internal',
         'engines'       => [
             'internal'  => [
-                'index' => ['h2', 'h3']
+                'index' => ['h2', 'h3', 'h4']
             ],
             'algolia'   => [
                 'key'   => '',
@@ -145,13 +145,13 @@ return [
     */
 
     'seo'                 => [
-        'author'          => '',
-        'description'     => '',
-        'keywords'        => '',
+        'author'          => 'Scobo Search',
+        'description'     => 'Scobo Search documenation',
+        'keywords'        => 'search,documenation,scobo',
         'og'              => [
-            'title'       => '',
+            'title'       => 'Scobo Search Documenation',
             'type'        => 'article',
-            'url'         => '',
+            'url'         => 'https://scobo.dev/docs',
             'image'       => '',
             'description' => '',
         ]

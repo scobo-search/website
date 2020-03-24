@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcc53e7eff0335b4d5cccb3941612d9d",
+    "content-hash": "923e82d76d1ca0f8973461820cf9c54d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -57,6 +57,47 @@
                 "stack"
             ],
             "time": "2019-12-24T22:41:47+00:00"
+        },
+        {
+            "name": "axelrindle/larecipe-emojify",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/axelrindle/larecipe-emojify.git",
+                "reference": "3cdb3e82fa63ab006e76c222362f9d693726a2d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/axelrindle/larecipe-emojify/zipball/3cdb3e82fa63ab006e76c222362f9d693726a2d5",
+                "reference": "3cdb3e82fa63ab006e76c222362f9d693726a2d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Axelrindle\\Emojify\\AssetServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Axelrindle\\Emojify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Replaces emoji shortcodes with native unicode emojis.",
+            "keywords": [
+                "emoji",
+                "larecipe"
+            ],
+            "time": "2019-04-15T10:44:12+00:00"
         },
         {
             "name": "binarytorch/larecipe",
