@@ -98,7 +98,7 @@ return [
         'default'       => 'internal',
         'engines'       => [
             'internal'  => [
-                'index' => ['h2', 'h3', 'h4']
+                'index' => ['h2', 'h3']
             ],
             'algolia'   => [
                 'key'   => '',
